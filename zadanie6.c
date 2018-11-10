@@ -74,7 +74,7 @@ int find_max_negative(int arr[],int n){
         }
     }
     if(!result){
-        printf("Nie ma najwiekszej ujemnej wartosci przy %d elementach.",n);
+        printf("\nNie ma najwiekszej ujemnej wartosci przy %d elementach.",n);
         return 1;
     } else{
         return max_neg;
